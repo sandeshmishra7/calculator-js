@@ -1,0 +1,21 @@
+.calculator {
+    display: flex;
+    width: 300px;
+}
+
+.left {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.buttons, #back, #clr {
+    width: 20px;
+    flex-basis: 28%;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.screen {
+    display: flex;
+    flex-direction: column;
+}
