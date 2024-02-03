@@ -81,3 +81,37 @@ submit.addEventListener('click', function (e) {
 });
 
 
+// let buttons = document.querySelectorAll('.buttons');
+// let submit = document.querySelector('#submit');
+// let screen = document.querySelector('#screen');
+// let back = document.querySelector('#back');
+// let clr = document.querySelector('#clr');
+
+// buttons.forEach(function (item) {
+//     item.addEventListener('click', function (e) {
+//         e.preventDefault();
+
+//         if (/[-+*/]/.test(item.innerHTML)) {
+//             item.innerHTML = ` ${item.innerHTML} `;
+//         }
+
+//         screen.value += item.innerHTML;
+//     });
+// });
+
+// back.addEventListener('click', function () {
+//     screen.value = screen.value.slice(0, screen.value.length - 1);
+// });
+
+// clr.addEventListener('click', function () {
+//     screen.value = '';
+// })
+
+// submit.addEventListener('click', function () {
+//     try {
+//         screen.value = `${screen.value} = ${eval(screen.value)}`
+//     }
+//     catch (error) {
+//         screen.value = 'Please enter valid operation';
+//     }
+// })
